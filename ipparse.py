@@ -36,6 +36,12 @@ if __name__ == "__main__":
     with open(r, LOGFILE, 'r') as f:
         lines = len(LOGFILE.readlines())
             print('Total Number of lines:', lines)
+
+    with open(r, LOGFILE, 'r') as f:
+        uniqueIps = {}
+        for IP in uniqueIps:
+            if IP not in uniqueIps
+                uniqueIps.append(IP)
             
 
             
